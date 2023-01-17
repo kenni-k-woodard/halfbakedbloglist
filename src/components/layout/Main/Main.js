@@ -6,10 +6,10 @@ import BlogCard from '../../BlogCard/BlogCard.js';
 export default function Main() {
   const blogs = useBlogs();
   return (
-    <Main>
+    <main>
       {blogs.map((blog) => (
         <BlogCard key={blog.name} {...blog} />
       ))}
-    </Main>
+    </main>
   );
 }
