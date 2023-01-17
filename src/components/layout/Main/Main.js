@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { fetchBlogs } from '../../../services/blogs.js';
+import React from 'react';
 import { useBlogs } from '../../../hooks/useBlogs.js';
 import BlogCard from '../../BlogCard/BlogCard.js';
 
